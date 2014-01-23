@@ -1,0 +1,31 @@
+class="list-header"
+
+.list-header{
+	color: green;
+	font-family: Verdana, Georgia, Serif;
+}
+
+
+
+
+#intro-paragraph{
+	color:blue;
+}
+
+.grocery-list li {
+	display:inline;
+}
+
+body{
+	background-color:#C2FFC2;
+}
+
+img {
+	padding: 20px;
+}
+
+ul {
+	font-size: 25px;
+	color: blue;
+
+}
