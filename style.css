@@ -1,12 +1,7 @@
-class="list-header"
-
 .list-header{
 	color: green;
 	font-family: Verdana, Georgia, Serif;
 }
-
-
-
 
 #intro-paragraph{
 	color:blue;
@@ -16,8 +11,12 @@ class="list-header"
 	display:inline;
 }
 
+header{
+	color: green;
+}
+
 body{
-	background-color:#C2FFC2;
+	background-color:#ebe8dd;
 }
 
 img {
@@ -25,7 +24,36 @@ img {
 }
 
 ul {
-	font-size: 25px;
+	font-size: 20;
 	color: blue;
 
+}
+
+footer {
+	color: red;
+}
+.round{
+	padding:0;margin:0;
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	overflow:hidden; /** This will hide anything inside it that OVERFLOWS */
+	margin-left: 20px;
+	border: solid black;
+
+}
+
+#synopsis {
+	float: left;
+	width: 33%;
+}
+
+#main {
+	float:left;
+	width: 33%;
+}
+
+#sidebar {
+	float: left;
+	width: 33%;
 }
