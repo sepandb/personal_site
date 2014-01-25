@@ -11,6 +11,14 @@
 	display:inline;
 }
 
+a:link {
+	color: pink;
+}
+
+a:visited {
+	color: orange;
+}
+
 header{
 	color: green;
 }
@@ -30,8 +38,13 @@ ul {
 }
 
 footer {
+	margin: 0 auto;
+	text-align: center;
+	clear: both;
 	color: red;
 }
+
+
 .round{
 	padding:0;margin:0;
 	width: 200px;
